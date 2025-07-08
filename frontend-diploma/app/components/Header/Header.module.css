@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    height: 72px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    flex-shrink: 0; /* Не дает логотипу сжиматься */
+}
+
+.logo img {
+    max-width: 150px; /* Ограничение ширины лого */
+    height: auto; /* Автоматическое соотношение сторон */
+    margin-right: 8px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    flex-grow: 1; /* Заставляет навигацию занимать доступное пространство */
+    justify-content: center; /* Центрирует кнопки */
+}
+
+.navButton {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s;
+
+}
+
+.navButton.active {
+    color: #337544;
+    border: 1px solid #337544;
+}
+
+.navButton:hover {
+    color: #337544;
+    border: 1px solid #337544;
+    transition: all 0.2s;
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #333;
+    flex-shrink: 0; /* Не дает блоку профиля сжиматься */
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}

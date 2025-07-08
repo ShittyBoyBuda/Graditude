@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.formWrapper {
+    width: 450px;
+    border: 2px solid;
+    border-image: linear-gradient(to bottom, red 0%, red 33%, green 66%, green 100%) 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formWrapper p {
+    margin-bottom: 10px;
+}
+
+.formWrapper h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.radioLabel input {
+    margin-right: 10px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputGroup label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.inputGroup input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.optionalNote {
+    font-size: 12px;
+    color: red;
+    margin-top: 0px;
+}
+
+.submitButton {
+    width: 238px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #439f5a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+.submitButton:hover {
+    background-color: #337544;
+}
+
+.loginLink {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.loginLink a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.loginLink a:hover {
+    text-decoration: none;
+    color: #0070f3;
+}
